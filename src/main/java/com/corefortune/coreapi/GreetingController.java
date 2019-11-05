@@ -19,12 +19,12 @@ private final AtomicLong counter = new AtomicLong();
         String.format(Template, name));
 }
 
-@RequestMapping("/hello-world1")
+/* @RequestMapping("/hello-world1")
     public Greeting displaydata(@RequestParam(value="name") String name,@RequestParam(value="phonenumber") Long phno)
     {
         return new Greeting(counter.incrementAndGet(),
         String.format(Template, name),phno);
-}
+} */
     
 
 }
